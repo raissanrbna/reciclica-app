@@ -1,0 +1,7 @@
+{
+  "name": "reciclic-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
