@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Location_map_Jakarta_Metropolitan_Area.png">
+ <ion-card>
+  <ion-card-content>
+    <p>Address: Jalan Blimbingsari, Caturtunggal, Depok, Sleman</p>
+      <p>Complement: CT/IV Blok:15B</p>
+      <p>Neighborhood: Neighborhood</p>
+      <p>Zip Code: 583721</p>
+      <p>City name: Sleman</p>
+  </ion-card-content>
+ </ion-card>
+ <ion-list>
+  <ion-item lines="inset">
+    <ion-label position="floating">Notes</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+ </ion-list>
+
+ <ion-button size="full" color="success" (click)="newPickupCall()">Create Pickup Call</ion-button>
+
+</ion-content>
+
