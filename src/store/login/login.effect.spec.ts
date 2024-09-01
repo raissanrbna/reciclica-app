@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { LoginPage } from './login.page';
 import { Router } from '@angular/router';
 import { IonicModule, ToastController } from '@ionic/angular';
 import { AppRoutingModule } from 'src/app/app-routing.module';
@@ -14,6 +13,7 @@ import { Observable, of, throwError } from 'rxjs';
 import { User } from 'src/app/model/user/User';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
+import { LoginPage } from 'src/app/pages/login/login.page';
 
 describe('LoginPage', () => {
   let component: LoginPage;
@@ -126,8 +126,4 @@ describe('LoginPage', () => {
 
     expect(router.navigate).toHaveBeenCalledWith(['home']);
   })
-
-
-
-
 });
