@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular'; // Impor IonicModule
 import { PickupCallCardComponent} from '../components/pickup-call-card/pickup-call-card.component';
 import { PickupCallPageModule } from '../pages/pickup-call/pickup-call.module';
 import { HomePageModule } from '../pages/home/home.module';
+import { ErrorMessageComponent } from '../components/error-message/error-message.component';
 
 
 
